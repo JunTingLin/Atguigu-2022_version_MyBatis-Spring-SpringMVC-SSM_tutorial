@@ -40,10 +40,12 @@
         <option value="$PROJECT_DIR$/mybatis_helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/01-mybatis_helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/03-mybatis_resultMap/pom.xml" />
+        <option value="$PROJECT_DIR$/04-mybatis_dynamicSQL/pom.xml" />
+        <option value="$PROJECT_DIR$/02-mybatis_parameter/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" project-jdk-name="12" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="12" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
