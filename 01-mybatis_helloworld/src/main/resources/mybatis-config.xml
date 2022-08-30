@@ -48,7 +48,7 @@
                 属性：
                 type：设置事务管理的方式
                 type="JDBC|MANAGED"
-                JDBC：表示使用JDBC中原生的事务管理方式
+                JDBC：表示使用JDBC中原生的事务管理方式，補充:手動rollback、commit
                 MANAGED：被管理，例如Spring
             -->
             <transactionManager type="JDBC"/>
@@ -74,6 +74,7 @@
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC"/>
+                <!--  注意:假如有多參，比如要設定characterEncoding，不能直接用&隔開，要使用&amp;      -->
                 <property name="username" value="root"/>
                 <property name="password" value="123456"/>
             </dataSource>
@@ -87,6 +88,7 @@
             以包的方式引入映射文件，但是必须满足两个条件：
             1、mapper接口和映射文件所在的包必须一致
             2、mapper接口的名字和映射文件的名字必须一致
+            注意: 最後加載完到target看會發現mapper接口跟映射xml在同個目錄下
         -->
         <package name="com.atguigu.mybatis.mapper"/>
     </mappers>
