@@ -68,7 +68,7 @@
         <!--
             association：处理多对一的映射关系（处理实体类类型的属性）
             property：设置需要处理映射关系的属性的属性名
-            javaType：设置要处理的属性的类型
+            javaType：设置要处理的属性的类型，補充:要寫全類名，但因為在核心配置文件裡面配置了package，所以可簡寫類名
         -->
         <association property="dept" javaType="Dept">
             <id column="dept_id" property="deptId"></id>

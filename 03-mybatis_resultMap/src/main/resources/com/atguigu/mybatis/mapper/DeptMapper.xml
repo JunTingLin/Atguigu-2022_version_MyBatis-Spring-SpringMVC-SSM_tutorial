@@ -6,6 +6,7 @@
 <mapper namespace="com.atguigu.mybatis.mapper.DeptMapper">
 
     <!--Dept getEmpAndDeptByStepTwo(@Param("deptId") Integer deptId);-->
+    <!-- 補充: 這邊使用type不需使用resultMap，因為以在mybatis-config中，設定mapUnderscoreToCamelCase   -->
     <select id="getEmpAndDeptByStepTwo" resultType="Dept">
         select * from t_dept where dept_id = #{deptId}
     </select>

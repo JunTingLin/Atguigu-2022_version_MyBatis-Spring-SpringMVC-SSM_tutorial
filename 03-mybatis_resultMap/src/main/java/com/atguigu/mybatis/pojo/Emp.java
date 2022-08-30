@@ -16,6 +16,11 @@ public class Emp {
     private String gender;
 
     private Dept dept;
+    /*
+        注意:
+        對一:對應一個物件對象
+        對多:對應一個集合
+     */
 
     public Emp() {
     }
