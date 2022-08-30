@@ -8,9 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring_helloworld" />
         <module name="spring-proxy" />
-        <module name="mybatis_resultMap" />
         <module name="spring_mvc_demo" />
         <module name="spring_listener" />
+        <module name="03-mybatis_resultMap" />
         <module name="spring_mvc_ajax" />
         <module name="ssm" />
         <module name="spring_mvc_annotation" />
@@ -31,10 +31,10 @@
     <bytecodeTargetLevel>
       <module name="01-mybatis_helloworld" target="1.8" />
       <module name="02-mybatis_parameter" target="1.8" />
+      <module name="03-mybatis_resultMap" target="1.8" />
       <module name="mybatis_cache" target="1.5" />
       <module name="mybatis_dynamicSQL" target="1.5" />
       <module name="mybatis_mbg" target="1.5" />
-      <module name="mybatis_resultMap" target="1.5" />
       <module name="spring-aop" target="1.5" />
       <module name="spring-proxy" target="1.5" />
       <module name="spring-transaction" target="1.5" />

@@ -39,6 +39,7 @@
         <option value="$PROJECT_DIR$/ssm/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/01-mybatis_helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/03-mybatis_resultMap/pom.xml" />
       </list>
     </option>
   </component>
