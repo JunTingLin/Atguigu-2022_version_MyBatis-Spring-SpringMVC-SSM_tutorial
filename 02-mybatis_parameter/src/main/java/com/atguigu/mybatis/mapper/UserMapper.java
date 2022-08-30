@@ -22,6 +22,7 @@ import java.util.Map;
  * 只需要通过#{}和${}访问map集合的键，就可以获取相对应的值,一定要注意${}的单引号问题
  * 4、若mapper接口方法的参数为实体类类型的参数
  * 只需要通过#{}和${}访问实体类中的属性名，就可以获取相对应的属性值，一定要注意${}的单引号问题
+ * 補充: 屬性名並非完全是成員變量，而是setter、getter去掉set、get改小寫
  * 5、可以在mapper接口方法的参数上设置@Param注解
  * 此时MyBatis会将这些参数放在map中，以两种方式进行存储
  * a>以@Param注解的value属性值为键，以参数为值
@@ -64,5 +65,7 @@ public interface UserMapper {
      * @param password
      * @return
      */
-    User checkLoginByParam(@Param("username") String username, @Param("password") String password);
+    User checkLoginByParam(@Param(value = "username") String username, @Param("password") String password);
+    //只為value屬性附值，"value ="可不寫
+    //@註解的value屬性值作為key
 }

@@ -17,7 +17,7 @@ public interface SpecialSQLMapper {
      * @param mohu
      * @return
      */
-    List<User> getUserByLike(@Param("mohu") String mohu);
+    List<User> getUserByLike(@Param("mohu") String mohu);  //mohu模糊
 
     /**
      * 批量删除

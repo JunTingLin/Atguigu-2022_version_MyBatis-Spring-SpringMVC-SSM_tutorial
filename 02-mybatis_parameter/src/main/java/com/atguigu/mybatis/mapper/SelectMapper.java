@@ -52,7 +52,7 @@ public interface SelectMapper {
      * 此时有两种解决方案：
      * 1、将mapper接口方法的返回值设置为泛型是map的list集合
      * List<Map<String, Object>> getAllUserToMap();
-     * 结果：{password=123456, gender=男, id=1, age=23, email=12345@qq.com, username=admin},{password=123456, gender=男, id=1, age=23, email=12345@qq.com, username=admin}
+     * 结果：[{password=123456, gender=男, id=1, age=23, email=12345@qq.com, username=admin},{password=123456, gender=男, id=1, age=23, email=12345@qq.com, username=admin}]
      * 2、可以将每条数据转换的map集合放在一个大的map中，但是必须要通过@MapKey注解
      * 将查询的某个字段的值作为大的map的键
      * @MapKey("id")
@@ -66,6 +66,6 @@ public interface SelectMapper {
      *  }
      */
     //List<Map<String, Object>> getAllUserToMap();
-    @MapKey("id")
+    @MapKey("id")  //Map包Map，以id為key
     Map<String, Object> getAllUserToMap();
 }

@@ -48,6 +48,7 @@ public class ParameterTest {
         SqlSession sqlSession = SqlSessionUtil.getSqlSession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         User user = new User(null, "root", "123456", 33, "女", "123@qq.com");
+//      //id為自動遞增
         mapper.insertUser(user);
     }
 

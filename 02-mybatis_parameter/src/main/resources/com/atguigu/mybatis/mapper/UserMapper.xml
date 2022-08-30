@@ -7,7 +7,9 @@
 
     <!--User getUserByUsername(String username);-->
     <select id="getUserByUsername" resultType="User">
+        <!--透過?佔位符 -->
         <!--select * from t_user where username = #{username}-->
+        <!-- 透過字串拼接 -->
         select * from t_user where username = '${username}'
     </select>
 

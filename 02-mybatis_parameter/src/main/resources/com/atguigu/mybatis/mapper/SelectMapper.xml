@@ -23,6 +23,7 @@
         Map：map
         String：string
     -->
+    <!-- 補充: 這邊不使用MyBatis預設別名也行，用完整包名java.lang.Integer   -->
     <select id="getCount" resultType="int">
         select count(*) from t_user
     </select>

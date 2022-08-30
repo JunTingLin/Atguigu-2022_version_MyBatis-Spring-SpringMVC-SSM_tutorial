@@ -54,7 +54,7 @@ public class SpecialSQLMapperTest {
             Connection connection = DriverManager.getConnection("","","");
             /*String sql = "select * from t_user where username like '%?%'";
             PreparedStatement ps = connection.prepareStatement(sql);*/
-            //ps.setString(1, "a");
+            //ps.setString(1, "a");  //不對，編譯直接爆紅，找不到佔位符
             String sql = "insert into t_user values()";
             PreparedStatement ps = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
             ps.executeUpdate();

@@ -48,7 +48,7 @@
       <module name="spring_mvc_extension" target="1.5" />
       <module name="spring_mvc_helloworld" target="1.5" />
       <module name="spring_mvc_rest" target="1.5" />
-      <module name="ssm" target="1.5" />
+      <module name="ssm" target="12" />
     </bytecodeTargetLevel>
   </component>
 </project>
