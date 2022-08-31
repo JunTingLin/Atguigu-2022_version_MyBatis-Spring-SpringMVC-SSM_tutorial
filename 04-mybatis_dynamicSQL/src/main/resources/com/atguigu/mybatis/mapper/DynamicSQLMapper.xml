@@ -66,6 +66,7 @@
         </where>
     </select>
     <select id="getEmpByConditionOne" resultType="Emp">
+        <!-- where 後面放個恆成立的條件 -->
         select * from t_emp where 1=1
         <if test="empName != null and empName != ''">
             and emp_name = #{empName}
@@ -80,6 +81,7 @@
 
     <!--List<Emp> getEmpByChoose(Emp emp);-->
     <select id="getEmpByChoose" resultType="Emp">
+        <!-- 補充: 相當於if(when)、else if(when)、else(otherwise)可不寫 -->
         select * from t_emp
         <where>
             <choose>
