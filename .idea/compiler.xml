@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring_helloworld" />
         <module name="spring-proxy" />
         <module name="04-mybatis_dynamicSQL" />
         <module name="spring_mvc_demo" />
         <module name="05-mybatis_cache" />
+        <module name="07-spring_helloworld" />
         <module name="spring_listener" />
         <module name="03-mybatis_resultMap" />
         <module name="spring_mvc_ajax" />
@@ -35,10 +35,10 @@
       <module name="04-mybatis_dynamicSQL" target="1.8" />
       <module name="05-mybatis_cache" target="1.8" />
       <module name="06-mybatis_mbg" target="1.8" />
+      <module name="07-spring_helloworld" target="1.8" />
       <module name="spring-aop" target="1.5" />
       <module name="spring-proxy" target="1.5" />
       <module name="spring-transaction" target="1.5" />
-      <module name="spring_helloworld" target="1.5" />
       <module name="spring_ioc_annotation" target="1.5" />
       <module name="spring_ioc_xml" target="1.5" />
       <module name="spring_listener" target="1.5" />

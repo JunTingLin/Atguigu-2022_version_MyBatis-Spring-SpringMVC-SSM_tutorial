@@ -44,6 +44,7 @@
         <option value="$PROJECT_DIR$/02-mybatis_parameter/pom.xml" />
         <option value="$PROJECT_DIR$/05-mybatis_cache/pom.xml" />
         <option value="$PROJECT_DIR$/06-mybatis_mbg/pom.xml" />
+        <option value="$PROJECT_DIR$/07-spring_helloworld/pom.xml" />
       </list>
     </option>
   </component>
