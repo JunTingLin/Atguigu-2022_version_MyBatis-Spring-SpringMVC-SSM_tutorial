@@ -8,6 +8,7 @@ import java.io.Serializable;
  * Description:
  */
 public class Emp implements Serializable {
+    //補充: mapper配置文件cache標簽，添加readOnly屬性為true(默認是false)，實體類就不需實現序列化接口
 
     private Integer empId;
 

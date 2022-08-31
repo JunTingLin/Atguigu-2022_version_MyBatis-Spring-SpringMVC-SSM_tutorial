@@ -10,6 +10,7 @@
         <module name="spring-proxy" />
         <module name="04-mybatis_dynamicSQL" />
         <module name="spring_mvc_demo" />
+        <module name="05-mybatis_cache" />
         <module name="spring_listener" />
         <module name="03-mybatis_resultMap" />
         <module name="spring_mvc_ajax" />
@@ -22,7 +23,6 @@
         <module name="mybatis_mbg" />
         <module name="spring-aop" />
         <module name="02-mybatis_parameter" />
-        <module name="mybatis_cache" />
         <module name="01-mybatis_helloworld" />
         <module name="spring_ioc_xml" />
         <module name="spring_ioc_annotation" />
@@ -33,7 +33,7 @@
       <module name="02-mybatis_parameter" target="1.8" />
       <module name="03-mybatis_resultMap" target="1.8" />
       <module name="04-mybatis_dynamicSQL" target="1.8" />
-      <module name="mybatis_cache" target="1.5" />
+      <module name="05-mybatis_cache" target="1.8" />
       <module name="mybatis_mbg" target="1.5" />
       <module name="spring-aop" target="1.5" />
       <module name="spring-proxy" target="1.5" />

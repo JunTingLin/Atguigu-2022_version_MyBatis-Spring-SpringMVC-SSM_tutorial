@@ -40,14 +40,16 @@ public class CacheMapperTest {
      */
 
     @Test
+    //測試二級緩存
     public void testCache() throws IOException {
         InputStream is = Resources.getResourceAsStream("mybatis-config.xml");
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(is);
+        //注意: 讓sqlSession都是由同一個sqlSessionFactory生成的
         SqlSession sqlSession1 = sqlSessionFactory.openSession(true);
         CacheMapper mapper1 = sqlSession1.getMapper(CacheMapper.class);
         Emp emp1 = mapper1.getEmpById(1);
         System.out.println(emp1);
-        sqlSession1.close();
+        sqlSession1.close();  //只有將sqlSession關閉，保存在一級緩存中的數據，才會被保存到二級緩存
         SqlSession sqlSession2 = sqlSessionFactory.openSession(true);
         CacheMapper mapper2 = sqlSession2.getMapper(CacheMapper.class);
         Emp emp2 = mapper2.getEmpById(1);
@@ -56,6 +58,7 @@ public class CacheMapperTest {
     }
 
     @Test
+    //測試一級緩存
     public void testGetEmpById(){
         SqlSession sqlSession1 = SqlSessionUtil.getSqlSession();
         CacheMapper mapper1 = sqlSession1.getMapper(CacheMapper.class);
