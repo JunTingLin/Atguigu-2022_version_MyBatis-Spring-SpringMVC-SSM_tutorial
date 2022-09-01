@@ -17,7 +17,7 @@
         use-default-filters="false"，所设置的包下所有的类都不需要扫描，此时可以使用包含扫描
     -->
 
-    <!--扫描组件-->
+    <!--扫描组件(baes-package下都要給我掃描，舉例:在沒有自訂id下預設會產生userServiceImpl的bean)-->
     <context:component-scan base-package="com.atguigu.spring"></context:component-scan>
     <!--<context:component-scan base-package="com.atguigu.spring" use-default-filters="false">
         &lt;!&ndash;<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>&ndash;&gt;

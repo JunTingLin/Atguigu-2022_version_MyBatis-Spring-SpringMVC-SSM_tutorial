@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
  * Author:ybc
  * Description:
  */
-@Controller("controller")
+@Controller("controller")  // 自定義id
 public class UserController {
 
     //@Autowired(required = false)
