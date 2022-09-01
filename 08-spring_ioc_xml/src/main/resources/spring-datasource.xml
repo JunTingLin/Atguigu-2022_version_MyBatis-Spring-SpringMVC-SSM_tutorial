@@ -12,6 +12,7 @@
         <property name="url" value="${jdbc.url}"></property>
         <property name="username" value="${jdbc.username}"></property>
         <property name="password" value="${jdbc.password}"></property>
+        <!-- druid數據庫連接池還有許多配置的屬姓名，web課程有提過了 -->
     </bean>
 
 </beans>

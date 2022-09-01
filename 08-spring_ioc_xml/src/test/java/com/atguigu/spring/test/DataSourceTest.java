@@ -17,7 +17,7 @@ public class DataSourceTest {
     @Test
     public void testDataSource() throws SQLException {
         ApplicationContext ioc = new ClassPathXmlApplicationContext("spring-datasource.xml");
-        DruidDataSource dataSource = ioc.getBean(DruidDataSource.class);
+        DruidDataSource dataSource = ioc.getBean(DruidDataSource.class); //DataSource.class也行
         System.out.println(dataSource.getConnection());
     }
 

@@ -4,7 +4,11 @@
        xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
 
-    <bean id="studentOne" class="com.atguigu.spring.pojo.Student"></bean>
+
+    <!-- Spring config文件可隨便取名，在上個入門案例中取名為applicationContext.xml -->
+    <!-- 注意: 此處只是為了演示，通常一個對象實例對應一個bean(單例)，即使多例也只須追加scope屬性 -->
+
+    <bean id="studentOne" class="com.atguigu.spring.pojo.Student" scope=""></bean>
 
     <bean id="studentTwo" class="com.atguigu.spring.pojo.Student">
         <!--

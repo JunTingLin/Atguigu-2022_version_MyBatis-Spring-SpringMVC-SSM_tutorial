@@ -17,7 +17,7 @@ public class ScopeTest {
         ApplicationContext ioc = new ClassPathXmlApplicationContext("spring-scope.xml");
         Student student1 = ioc.getBean(Student.class);
         Student student2 = ioc.getBean(Student.class);
-        System.out.println(student1 == student2);
+        System.out.println(student1 == student2); //比較記憶體位置
     }
 
 }
