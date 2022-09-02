@@ -26,10 +26,11 @@ public class BookServiceImpl implements BookService {
             //readOnly = true
             //timeout = 3
             //noRollbackFor = ArithmeticException.class
-            //noRollbackForClassName = "java.lang.ArithmeticException"
+            //noRollbackForClassName = {"java.lang.ArithmeticException"}  //只有一個時，大括號可加可不加
             //isolation = Isolation.DEFAULT
             propagation = Propagation.REQUIRES_NEW
     )*/
+    //mysql預設情況下查詢書價、庫存減一、更新餘額個獨佔一事務且自動提交，萬一用戶餘額不夠，只有第三事務會回滾
     public void buyBook(Integer userId, Integer bookId) {
         /*try {
             TimeUnit.SECONDS.sleep(5);

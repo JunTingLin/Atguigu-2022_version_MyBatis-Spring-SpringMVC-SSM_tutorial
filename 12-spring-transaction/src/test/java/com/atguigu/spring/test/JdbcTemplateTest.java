@@ -20,6 +20,9 @@ import java.util.List;
 @RunWith(SpringJUnit4ClassRunner.class)
 //设置Spring测试环境的配置文件
 @ContextConfiguration("classpath:spring-jdbc.xml")
+//補充: 以前沒有spring-test整合junit時，要先通過配置文件獲取IOC，再獲取IOC容器裡的bean
+
+//補充: JdbcTemplate的增刪改查參考一下就好，以後用較多的還是MyBatis
 public class JdbcTemplateTest {
 
     @Autowired
@@ -29,6 +32,7 @@ public class JdbcTemplateTest {
     public void testInsert(){
         String sql = "insert into t_user values(null,?,?,?,?,?)";
         jdbcTemplate.update(sql, "root", "123", 23, "女", "123@qq.com");
+        //注意: 增刪改都是使用update
     }
 
     @Test
@@ -46,6 +50,7 @@ public class JdbcTemplateTest {
     }
 
     @Test
+    //查詢單行單列
     public void testGetCount(){
         String sql = "select count(*) from t_user";
         Integer count = jdbcTemplate.queryForObject(sql, Integer.class);

@@ -5,8 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.atguigu.spring</groupId>
-    <artifactId>spring-transaction</artifactId>
+    <artifactId>12-spring-transaction</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -54,6 +58,7 @@
             <artifactId>druid</artifactId>
             <version>1.0.31</version>
         </dependency>
+        <!-- 注意:基于xml实现的声明式事务，才须引入aspectJ的依赖       -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>

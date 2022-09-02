@@ -13,8 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/09-spring_ioc_annotation/09-spring_ioc_annotation.iml" filepath="$PROJECT_DIR$/09-spring_ioc_annotation/09-spring_ioc_annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-spring-proxy/10-spring-proxy.iml" filepath="$PROJECT_DIR$/10-spring-proxy/10-spring-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/11-spring-aop/11-spring-aop.iml" filepath="$PROJECT_DIR$/11-spring-aop/11-spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-spring-transaction/12-spring-transaction.iml" filepath="$PROJECT_DIR$/12-spring-transaction/12-spring-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SSM.iml" filepath="$PROJECT_DIR$/.idea/SSM.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-transaction/spring-transaction.iml" filepath="$PROJECT_DIR$/spring-transaction/spring-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_listener/spring_listener.iml" filepath="$PROJECT_DIR$/spring_listener/spring_listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_mvc_ajax/spring_mvc_ajax.iml" filepath="$PROJECT_DIR$/spring_mvc_ajax/spring_mvc_ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_mvc_annotation/spring_mvc_annotation.iml" filepath="$PROJECT_DIR$/spring_mvc_annotation/spring_mvc_annotation.iml" />
