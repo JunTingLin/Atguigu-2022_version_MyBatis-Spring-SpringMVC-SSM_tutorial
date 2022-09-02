@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Aspect
-@Order(1)
+@Order(1)  //默認是Integer.MAX_VALUE
 public class ValidateAspect {
 
     //@Before("execution(* com.atguigu.spring.aop.annotation.CalculatorImpl.*(..))")

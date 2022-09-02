@@ -17,13 +17,13 @@
         <module name="09-spring_ioc_annotation" />
         <module name="spring_mvc_annotation" />
         <module name="spring_mvc_helloworld" />
+        <module name="11-spring-aop" />
         <module name="spring_mvc_rest" />
         <module name="06-mybatis_mbg" />
         <module name="spring-transaction" />
         <module name="spring_mvc_extension" />
         <module name="10-spring-proxy" />
         <module name="08-spring_ioc_xml" />
-        <module name="spring-aop" />
         <module name="02-mybatis_parameter" />
         <module name="01-mybatis_helloworld" />
       </profile>
@@ -39,6 +39,7 @@
       <module name="08-spring_ioc_xml" target="1.8" />
       <module name="09-spring_ioc_annotation" target="1.8" />
       <module name="10-spring-proxy" target="1.8" />
+      <module name="11-spring-aop" target="1.8" />
       <module name="spring-aop" target="1.5" />
       <module name="spring-proxy" target="1.5" />
       <module name="spring-transaction" target="1.5" />
