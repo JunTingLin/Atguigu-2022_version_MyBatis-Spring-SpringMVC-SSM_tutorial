@@ -12,6 +12,7 @@
         url-pattern中/和/*的区别：
         /：匹配浏览器向服务器发送的所有请求（不包括.jsp）
         /*：匹配浏览器向服务器发送的所有请求（包括.jsp）
+        注意:jsp是要透過JspServlet處裡的，DispatcherServlet處理不了，但現在我們使用thymeleaf，視圖都是.html結尾的，不訪問jsp了
     -->
     <servlet>
         <servlet-name>SpringMVC</servlet-name>

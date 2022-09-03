@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="spring_mvc_helloworld:war exploded">
-    <output-path>$PROJECT_DIR$/spring_mvc_helloworld/target/spring_mvc_helloworld-1.0-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="13-spring_mvc_helloworld:war exploded">
+    <output-path>$PROJECT_DIR$/13-spring_mvc_helloworld/target/13-spring_mvc_helloworld-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>spring_mvc_helloworld</module>
+        <module>13-spring_mvc_helloworld</module>
         <packaging>war</packaging>
       </options>
     </properties>
@@ -32,7 +32,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/13-spring_mvc_helloworld/target/spring_mvc_helloworld-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/13-spring_mvc_helloworld/target/13-spring_mvc_helloworld-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="13-spring_mvc_helloworld/web/Web" />
     </root>

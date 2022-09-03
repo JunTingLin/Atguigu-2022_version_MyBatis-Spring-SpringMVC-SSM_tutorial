@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
 
     @RequestMapping("/")
-    public String protal(){
+    public String portal(){
         //将逻辑视图返回
         return "index";
     }
