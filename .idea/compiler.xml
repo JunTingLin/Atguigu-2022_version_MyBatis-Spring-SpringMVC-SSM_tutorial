@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="04-mybatis_dynamicSQL" />
-        <module name="spring_mvc_demo" />
         <module name="13-spring_mvc_helloworld" />
         <module name="05-mybatis_cache" />
         <module name="07-spring_helloworld" />
@@ -26,6 +25,7 @@
         <module name="08-spring_ioc_xml" />
         <module name="02-mybatis_parameter" />
         <module name="01-mybatis_helloworld" />
+        <module name="14-spring_mvc_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,12 +42,12 @@
       <module name="11-spring-aop" target="1.8" />
       <module name="12-spring-transaction" target="1.8" />
       <module name="13-spring_mvc_helloworld" target="1.8" />
+      <module name="14-spring_mvc_demo" target="1.8" />
       <module name="spring-aop" target="1.5" />
       <module name="spring-proxy" target="1.5" />
       <module name="spring_listener" target="1.5" />
       <module name="spring_mvc_ajax" target="1.5" />
       <module name="spring_mvc_annotation" target="1.5" />
-      <module name="spring_mvc_demo" target="1.5" />
       <module name="spring_mvc_extension" target="1.5" />
       <module name="spring_mvc_rest" target="12" />
       <module name="ssm" target="12" />

@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Description:
  */
 @Controller
-public class ProtalController {
+public class PortalController {
 
     /*@RequestMapping("/")
-    public String protal(){
+    public String portal(){
         return "index";
     }*/
 

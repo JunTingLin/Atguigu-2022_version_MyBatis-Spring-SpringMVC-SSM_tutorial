@@ -57,7 +57,7 @@ public class TestRequestMappingController {
             value = {"/hello","/abc"},
             method = {RequestMethod.POST, RequestMethod.GET},
             //params = {"username","!password","age=20","gender!=女"},
-            headers = {"referer"}
+            headers = {"referer"} //referer:來源頁面地址，請求頭的鍵不區分大小寫
     )
     public String hello(){
         return "success";

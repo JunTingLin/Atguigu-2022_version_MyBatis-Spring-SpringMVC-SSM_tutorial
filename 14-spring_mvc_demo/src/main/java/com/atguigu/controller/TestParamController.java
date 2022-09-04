@@ -41,7 +41,9 @@ public class TestParamController {
 
     @RequestMapping("/param/servletAPI")
     public String getParamByServletAPI(HttpServletRequest request){
+        //request.setCharacterEncoding("UTF-8"); 注意: 無效，因為request不是第一次獲取，在人家的dispatcherServlet中request一定有先獲取請求參數
         HttpSession session = request.getSession();
+        //補充: 第一次會向瀏覽器響應一個jsession id的cookie，之後的發送都會協帶此cookie
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         System.out.println("username:"+username+",password:"+password);

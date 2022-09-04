@@ -59,6 +59,7 @@ public class TestScopeController {
         System.out.println(modelMap.getClass().getName());
         modelMap.addAttribute("testRequestScope", "hello,ModelMap");
         return "success";
+        //補充: 這邊是常用的返回字符串，但底層還是使用mav.setViewName("success")實現頁面跳轉
     }
 
     @RequestMapping("/test/map")
@@ -70,7 +71,7 @@ public class TestScopeController {
     }
 
     @RequestMapping("/test/session")
-    public String testSession(HttpSession session){
+    public String testSession(HttpSession session){  //補充: 這邊參數這邊設置request，再透過request.getSession也行
         session.setAttribute("testSessionScope", "hello,session");
         return "success";
     }
