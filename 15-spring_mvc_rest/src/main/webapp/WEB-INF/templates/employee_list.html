@@ -25,7 +25,9 @@
             <td th:text="${employee.gender}"></td>
             <td>
                 <a @click="deleteEmployee()" th:href="@{'/employee/'+${employee.id}}">delete</a>
-                <a th:href="@{'/employee/'+${employee.id}}">update</a>
+                <!--<a th:href="@{'/employee/'+${employee.id}}">update</a>-->
+                <!--注意: 上面這樣拼接可以，但頭尾加束槓會更方便，如下-->
+                <a th:href="@{|/employee/${employee.id}|}">update</a>
             </td>
         </tr>
     </table>

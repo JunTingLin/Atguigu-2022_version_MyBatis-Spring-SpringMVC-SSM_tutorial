@@ -16,11 +16,11 @@
       <module fileurl="file://$PROJECT_DIR$/12-spring-transaction/12-spring-transaction.iml" filepath="$PROJECT_DIR$/12-spring-transaction/12-spring-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/13-spring_mvc_helloworld/13-spring_mvc_helloworld.iml" filepath="$PROJECT_DIR$/13-spring_mvc_helloworld/13-spring_mvc_helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/14-spring_mvc_demo/14-spring_mvc_demo.iml" filepath="$PROJECT_DIR$/14-spring_mvc_demo/14-spring_mvc_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-spring_mvc_rest/15-spring_mvc_rest.iml" filepath="$PROJECT_DIR$/15-spring_mvc_rest/15-spring_mvc_rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_listener/spring_listener.iml" filepath="$PROJECT_DIR$/spring_listener/spring_listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_mvc_ajax/spring_mvc_ajax.iml" filepath="$PROJECT_DIR$/spring_mvc_ajax/spring_mvc_ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_mvc_annotation/spring_mvc_annotation.iml" filepath="$PROJECT_DIR$/spring_mvc_annotation/spring_mvc_annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_mvc_extension/spring_mvc_extension.iml" filepath="$PROJECT_DIR$/spring_mvc_extension/spring_mvc_extension.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring_mvc_rest/spring_mvc_rest.iml" filepath="$PROJECT_DIR$/spring_mvc_rest/spring_mvc_rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
     </modules>
   </component>
