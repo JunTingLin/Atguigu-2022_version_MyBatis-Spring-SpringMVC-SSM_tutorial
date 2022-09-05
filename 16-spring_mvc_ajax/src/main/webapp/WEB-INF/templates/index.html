@@ -31,7 +31,7 @@
            //此种方式的请求参数可以通过request.getParameter()获取
            params:{},
            //以json格式发送的请求参数
-           //请求参数会被保存到请求报文的请求体传输到服务器
+           //请求参数会被保存到请求报文的请求体传输到服务器，注意:get沒有請求體
            //此种方式的请求参数不可以通过request.getParameter()获取
            data:{}
        }).then(response=>{
@@ -45,6 +45,8 @@
             testAjax(){
                 axios.post(
                     "/SpringMVC/test/ajax?id=1001",
+                    //此絕對路徑是由瀏覽器解析的，故前面須加上上下文路徑SpringMVC
+                    //注意: js代碼中也無法使用@{/...}Thymeleaf表達式
                     {username:"admin",password:"123456"}
                 ).then(response=>{
                     console.log(response.data);

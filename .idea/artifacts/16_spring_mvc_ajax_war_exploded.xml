@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="spring_mvc_ajax:war exploded">
-    <output-path>$PROJECT_DIR$/spring_mvc_ajax/target/spring_mvc_ajax-1.0-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="16-spring_mvc_ajax:war exploded">
+    <output-path>$PROJECT_DIR$/16-spring_mvc_ajax/target/16-spring_mvc_ajax-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>spring_mvc_ajax</module>
+        <module>16-spring_mvc_ajax</module>
         <packaging>war</packaging>
       </options>
     </properties>
@@ -37,7 +37,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/16-spring_mvc_ajax/target/spring_mvc_ajax-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/16-spring_mvc_ajax/target/16-spring_mvc_ajax-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="16-spring_mvc_ajax/web/Web" />
     </root>

@@ -51,12 +51,12 @@ public class TestAjaxController {
     public void testRequestBody(@RequestBody Map<String, Object> map, HttpServletResponse response) throws IOException {
         System.out.println(map);
         response.getWriter().write("hello,RequestBody");
-    }
+    }//沒有實體類時，用集合接收
 
     public void testRequestBody(@RequestBody User user, HttpServletResponse response) throws IOException {
         System.out.println(user);
         response.getWriter().write("hello,RequestBody");
-    }
+    }//有實體類時
 
     @RequestMapping("/test/ResponseBody")
     @ResponseBody
