@@ -56,7 +56,7 @@
     <!--自定义Spring配置文件的位置和名称-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:spring.xml</param-value>
+        <param-value>classpath:springmvc.xml</param-value>
     </context-param>
 
 </web-app>
