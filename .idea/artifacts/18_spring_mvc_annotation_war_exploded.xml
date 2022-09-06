@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="spring_mvc_annotation:war exploded">
-    <output-path>$PROJECT_DIR$/spring_mvc_annotation/target/spring_mvc_annotation-1.0-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="18-spring_mvc_annotation:war exploded">
+    <output-path>$PROJECT_DIR$/18-spring_mvc_annotation/target/18-spring_mvc_annotation-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>spring_mvc_annotation</module>
+        <module>18-spring_mvc_annotation</module>
         <packaging>war</packaging>
       </options>
     </properties>
@@ -34,7 +34,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/18-spring_mvc_annotation/target/spring_mvc_annotation-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/18-spring_mvc_annotation/target/18-spring_mvc_annotation-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="18-spring_mvc_annotation/web/Web" />
     </root>

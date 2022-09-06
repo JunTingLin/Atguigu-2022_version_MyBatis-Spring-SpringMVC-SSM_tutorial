@@ -6,8 +6,8 @@
     <file type="web" url="file://$PROJECT_DIR$/15-spring_mvc_rest" />
     <file type="web" url="file://$PROJECT_DIR$/16-spring_mvc_ajax" />
     <file type="web" url="file://$PROJECT_DIR$/17-spring_mvc_extension" />
+    <file type="web" url="file://$PROJECT_DIR$/18-spring_mvc_annotation" />
     <file type="web" url="file://$PROJECT_DIR$/spring_listener" />
-    <file type="web" url="file://$PROJECT_DIR$/spring_mvc_annotation" />
     <file type="web" url="file://$PROJECT_DIR$/ssm" />
   </component>
   <component name="JavaScriptSettings">
@@ -55,6 +55,7 @@
         <option value="$PROJECT_DIR$/15-spring_mvc_rest/pom.xml" />
         <option value="$PROJECT_DIR$/16-spring_mvc_ajax/pom.xml" />
         <option value="$PROJECT_DIR$/17-spring_mvc_extension/pom.xml" />
+        <option value="$PROJECT_DIR$/18-spring_mvc_annotation/pom.xml" />
       </list>
     </option>
   </component>

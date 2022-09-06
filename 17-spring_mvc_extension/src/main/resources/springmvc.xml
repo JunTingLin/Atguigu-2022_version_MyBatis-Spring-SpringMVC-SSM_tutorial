@@ -51,21 +51,21 @@
     </bean>
 
 
-    <!--<mvc:interceptors>
+    <mvc:interceptors>
         <ref bean="firstInterceptor" />
         <ref bean="secondInterceptor" />
-        &lt;!&ndash;bean和ref标签所配置的拦截器默认对DispatcherServlet处理的所有的请求进行拦截&ndash;&gt;
-        &lt;!&ndash;<bean class="com.atguigu.interceptor.FirstInterceptor"/>&ndash;&gt;
-        &lt;!&ndash;<ref bean="firstInterceptor" />&ndash;&gt;
-        &lt;!&ndash;<mvc:interceptor>
+        <!--bean和ref标签所配置的拦截器默认对DispatcherServlet处理的所有的请求进行拦截-->
+        <!--<bean class="com.atguigu.interceptor.FirstInterceptor"/>-->
+        <!--<ref bean="firstInterceptor" />-->
+        <!--<mvc:interceptor>
             &lt;!&ndash;配置需要拦截的请求的请求路径，/**表示所有请求&ndash;&gt;
             <mvc:mapping path="/**"/>
             &lt;!&ndash;配置需要排除拦截的请求的请求路径&ndash;&gt;
             <mvc:exclude-mapping path="/abc"/>
             &lt;!&ndash;配置拦截器&ndash;&gt;
             <ref bean="firstInterceptor" />
-        </mvc:interceptor>&ndash;&gt;
-    </mvc:interceptors>-->
+        </mvc:interceptor>-->
+    </mvc:interceptors>
 
     <!--<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
         <property name="exceptionMappings">

@@ -44,19 +44,6 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <listener>
-        <!--
-            配置Spring的监听器，在服务器启动时加载Spring的配置文件
-            Spring配置文件默认位置和名称：/WEB-INF/applicationContext.xml
-            可通过上下文参数自定义Spring配置文件的位置和名称
-        -->
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
 
-    <!--自定义Spring配置文件的位置和名称-->
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:springmvc.xml</param-value>
-    </context-param>
 
 </web-app>

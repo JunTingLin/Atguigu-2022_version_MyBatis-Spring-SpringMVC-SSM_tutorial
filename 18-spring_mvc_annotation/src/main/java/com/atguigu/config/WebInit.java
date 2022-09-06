@@ -10,6 +10,7 @@ import javax.servlet.Filter;
  * Date:2022/7/10
  * Author:ybc
  * Description: 代替web.xml
+ * 注意: web.xml內的DispatcherServlet，AbstractAnnotationConfigDispatcherServletInitializer幫你配好了
  */
 public class WebInit extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override

@@ -42,7 +42,7 @@ public class WebConfig implements WebMvcConfigurer {
     }
 
     @Override
-    //配置视图解析器
+    //配置视图控制器
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/").setViewName("index");
     }

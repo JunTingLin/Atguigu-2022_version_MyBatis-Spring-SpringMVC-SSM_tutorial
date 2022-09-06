@@ -15,10 +15,10 @@
         <module name="03-mybatis_resultMap" />
         <module name="ssm" />
         <module name="09-spring_ioc_annotation" />
-        <module name="spring_mvc_annotation" />
         <module name="11-spring-aop" />
         <module name="16-spring_mvc_ajax" />
         <module name="06-mybatis_mbg" />
+        <module name="18-spring_mvc_annotation" />
         <module name="17-spring_mvc_extension" />
         <module name="10-spring-proxy" />
         <module name="08-spring_ioc_xml" />
@@ -46,10 +46,10 @@
       <module name="15-spring_mvc_rest" target="1.8" />
       <module name="16-spring_mvc_ajax" target="1.8" />
       <module name="17-spring_mvc_extension" target="1.8" />
+      <module name="18-spring_mvc_annotation" target="1.8" />
       <module name="spring-aop" target="1.5" />
       <module name="spring-proxy" target="1.5" />
       <module name="spring_listener" target="1.5" />
-      <module name="spring_mvc_annotation" target="1.5" />
       <module name="ssm" target="12" />
     </bytecodeTargetLevel>
   </component>
