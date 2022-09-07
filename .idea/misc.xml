@@ -8,7 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/17-spring_mvc_extension" />
     <file type="web" url="file://$PROJECT_DIR$/18-spring_mvc_annotation" />
     <file type="web" url="file://$PROJECT_DIR$/19-spring_listener" />
-    <file type="web" url="file://$PROJECT_DIR$/ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/20-ssm" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -57,6 +57,7 @@
         <option value="$PROJECT_DIR$/17-spring_mvc_extension/pom.xml" />
         <option value="$PROJECT_DIR$/18-spring_mvc_annotation/pom.xml" />
         <option value="$PROJECT_DIR$/19-spring_listener/pom.xml" />
+        <option value="$PROJECT_DIR$/20-ssm/pom.xml" />
       </list>
     </option>
   </component>

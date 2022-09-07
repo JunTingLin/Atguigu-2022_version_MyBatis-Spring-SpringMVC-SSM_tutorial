@@ -40,6 +40,7 @@ public class EmployeeController {
         return "employee_list";
     }
 
+    //下面獲取所有員工(不帶分頁)已失效，因為employee_list.html使用的是request.page而非request.list
     @RequestMapping(value = "/employee", method = RequestMethod.GET)
     public String getAllEmployee(Model model){
         //查询所有的员工信息

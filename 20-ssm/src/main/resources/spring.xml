@@ -34,6 +34,7 @@
     <!--配置SqlSessionFactoryBean，可以直接在Spring的IOC中获取SqlSessionFactory-->
     <bean class="org.mybatis.spring.SqlSessionFactoryBean">
         <!--设置MyBatis的核心配置文件的路径-->
+        <!--注意: 反正這邊有引入MyBatis的核心配置文件，在核心配置文件配或交給spring管理都行-->
         <property name="configLocation" value="classpath:mybatis-config.xml"></property>
         <!--设置数据源-->
         <property name="dataSource" ref="dataSource"></property>

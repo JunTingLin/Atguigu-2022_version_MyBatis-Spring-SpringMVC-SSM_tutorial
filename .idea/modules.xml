@@ -21,7 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/17-spring_mvc_extension/17-spring_mvc_extension.iml" filepath="$PROJECT_DIR$/17-spring_mvc_extension/17-spring_mvc_extension.iml" />
       <module fileurl="file://$PROJECT_DIR$/18-spring_mvc_annotation/18-spring_mvc_annotation.iml" filepath="$PROJECT_DIR$/18-spring_mvc_annotation/18-spring_mvc_annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/19-spring_listener/19-spring_listener.iml" filepath="$PROJECT_DIR$/19-spring_listener/19-spring_listener.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-ssm/20-ssm.iml" filepath="$PROJECT_DIR$/20-ssm/20-ssm.iml" />
     </modules>
   </component>
 </project>
